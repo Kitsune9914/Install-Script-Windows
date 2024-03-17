@@ -20,7 +20,7 @@ Primeiro devemos instalar o winget:
 2. 
 ![alt text](https://supertutoriais.b-cdn.net/wp-content/uploads/2023/03/como_instalar_winget_windows10-11_img1.png)
 
-Como instalar o Winget no Windows 10 e Windows 11
+## Como instalar o Winget no Windows 10 e Windows 11
 
 O Winget está disponível para download na loja da Microsoft, portanto, a forma mais fácil de instalar é por meio da Microsoft Store e, o processo de instalação e o mesmo no Windows 10 e no Windows 11.
 
