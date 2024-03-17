@@ -33,8 +33,18 @@ O Winget está disponível para download na loja da Microsoft, portanto, a forma
 4. Uma vez instalado o Winget (instalador de aplicativos) em seu computador, para confirmar que ele foi instalado com sucesso, abra o Prompt de Comando ou o PowerShell e execute o comando winget.
 Para executar o Script basta apenas clicar nele e irá aparecer um menu parecido com isso
 
+# Como instalar o Winget no Windows 10 e 11 a partir do GitHub
+
+Você também pode baixar o arquivo de instalação do Winget para realizar a instalação manual. Uma vantagem em instalar o Winget do GitHub, é que uma vez baixado o programa, a instalação é offline.
+
+1. Acesse a página de lançamento do Winget no GitHub, role a página para baixo e clique no link de download Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle, da versão recente (latest).
+
+2. Clique duas vezes no arquivo baixado para instalar o Winget no Windows 10 ou Windows 11.
+
+3. Uma vez instalado o Winget em seu computador, digite o comando winget no Prompt de Comando ou no PowerShell para confirmar que ele foi instalado com sucesso. Uma vez feito isso, você já pode começar a usar o Winget para instalar e atualizar programas em seu PC a partir da linha de comando e o script irá funcionar
+
 ```
-Escolha u aplicativo para instalar:
+Escolha um aplicativo para instalar:
 1. Discord
 2. Discord Canary
 3. Discord PTB
