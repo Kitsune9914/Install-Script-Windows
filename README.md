@@ -17,7 +17,7 @@ Primeiro devemos instalar o winget:
 # Se você estiver usando o Windows 11 22H2 ou o Windows 10 22H2, o Winget já deve estar instalado em seu PC, porém, é sempre importante verificar se ele está realmente instalado em seu computador.
 
 1. Existe uma forma fácil de determinar se o Winget está instalado. Abra o Prompt de Comando ou o PowerShell, digite o comando winget e pressione “Enter”. Se o Winget já estiver instalado em seu PC será exibida uma tela parecida com a tela abaixo. Portanto, você não precisará mais seguir o tutorial.
-2. 
+2. Leu é gorda
 ![alt text](https://supertutoriais.b-cdn.net/wp-content/uploads/2023/03/como_instalar_winget_windows10-11_img1.png)
 
 ## Como instalar o Winget no Windows 10 e Windows 11
