@@ -43,6 +43,8 @@ Você também pode baixar o arquivo de instalação do Winget para realizar a in
 
 3. Uma vez instalado o Winget em seu computador, digite o comando winget no Prompt de Comando ou no PowerShell para confirmar que ele foi instalado com sucesso. Uma vez feito isso, você já pode começar a usar o Winget para instalar e atualizar programas em seu PC a partir da linha de comando e o script irá funcionar
 
+Após fazer a instalação do winget clique no script e irá aperecr um menu de escolha como este
+
 ```
 Escolha um aplicativo para instalar:
 1. Discord
@@ -53,4 +55,4 @@ Escolha um aplicativo para instalar:
 Digite o número da sua escolha:
 ```
 
-Basta escolher a opção que mais lhe agradar
+Basta escolher a opção que mais lhe agradar até a finalização do script
