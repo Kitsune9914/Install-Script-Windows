@@ -17,6 +17,7 @@ Primeiro devemos instalar o winget:
 # Se você estiver usando o Windows 11 22H2 ou o Windows 10 22H2, o Winget já deve estar instalado em seu PC, porém, é sempre importante verificar se ele está realmente instalado em seu computador.
 
 ![alt text](https://supertutoriais.b-cdn.net/wp-content/uploads/2023/03/como_instalar_winget_windows10-11_img1.png)
+
 Para executar o Script basta apenas clicar nele e irá aparecer um menu parecido com isso
 
 ```
