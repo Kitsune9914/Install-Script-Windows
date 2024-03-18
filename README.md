@@ -14,7 +14,7 @@ Este script só funciona no Windows (funciona em qualquer vesão que tenha a pos
 
 Primeiro devemos instalar o winget:
 
-# Se você estiver usando o Windows 11 22H2 ou o Windows 10 22H2, o Winget já deve estar instalado em seu PC, porém, é sempre importante verificar se ele está realmente instalado em seu computador.
+## Se você estiver usando o Windows 11 22H2 ou o Windows 10 22H2, o Winget já deve estar instalado em seu PC, porém, é sempre importante verificar se ele está realmente instalado em seu computador.
 
  Existe uma forma fácil de determinar se o Winget está instalado. Abra o Prompt de Comando ou o PowerShell, digite o comando winget e pressione “Enter”. Se o Winget já estiver instalado em seu PC será exibida uma tela parecida com a tela abaixo. Portanto, você não precisará mais seguir o tutorial.
 
