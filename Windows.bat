@@ -14,7 +14,7 @@ set /p choice="Digite o número da sua escolha: "
 if "%choice%"=="1" (
     echo Instalando o Firefox...
     winget install Mozilla.Firefox
-    echo Instalação do ffmpeg foi concluida com sucesso.
+    echo Instalação do Firefox foi concluida com sucesso.
     pause
 ) else if "%choice%"=="2" (
     echo Instalando o Librewolf...
