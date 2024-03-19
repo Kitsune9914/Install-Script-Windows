@@ -321,7 +321,7 @@ set /p choice="Digite o número da sua escolha: "
 if "%choice%"=="1" (
     echo Instalando o Heroic Games Launcher...
     winget install HeroicGamesLauncher.HeroicGamesLauncher
-    echo Instalação do ffmpeg foi concluida com sucesso.
+    echo Instalação do Heroic Games Launcher foi concluida com sucesso.
     pause
 ) else if "%choice%"=="2" (
     echo Ignorando
