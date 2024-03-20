@@ -76,7 +76,8 @@ if "%choice%"=="1" (
     exit
 ) else (
     echo Escolha inválida. Por favor, digite um número válido.
-    pause exit
+    pause 
+    exit
 )
 
 echo Escolha um aplicativo para instalar:
