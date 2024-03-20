@@ -51,6 +51,10 @@ if "%choice%"=="1" (
     echo Fechando o Script...
     pause
     exit
+) else (
+    echo Escolha inválida. Por favor, digite um número válido
+    pause
+    exit
 )
 
 echo Escolha um aplicativo para instalar:
