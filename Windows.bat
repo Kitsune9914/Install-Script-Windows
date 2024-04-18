@@ -456,7 +456,7 @@ set /p choice="Digite o número de sua escolha: "
 if "%choice%"=="1" (
     echo Instalando o Neovim...
     winget install Neovim
-    echo Instalação do Neovimt foi concluida com sucesso
+    echo Instalação do Neovim foi concluida com sucesso
     pause
 ) else if "%choice%"=="2" (
     echo Ignorando
