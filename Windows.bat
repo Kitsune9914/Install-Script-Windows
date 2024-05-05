@@ -488,6 +488,7 @@ if "%choice%"=="1" (
 echo Deseja instalar o LibreOffice?
 echo 1. Sim
 echo 2. Não
+echo 3. Sair
 
 set /p "Escolha uma opção válida: "
 
@@ -504,9 +505,28 @@ if "%choice%"=="1" (
     pause
     exit
 ) else (
-    echo Escolha inválida. Por favor, selecione um número válida
+    echo Escolha inválida. Por favor, selecione um número válido
 )
 
 echo Deseja instalar o Shotcut?
 echo 1. Sim
-echo 2.
+echo 2. Não
+echo 3. Sair
+
+set /p "Escolha uma opção válida: "
+
+if "%choice%"=="1" (
+    echo Instalando o Shotcut...
+    winget install Meltytech.Shotcut
+    echo Instalação do Shotcut ocorreu com sucesso
+    pause
+) else if "%choice%"=="2" (
+    echo Ignorando
+    pause
+) else if "%choice%"=="3" (
+    echo Fechando o Script...
+    pause
+    exit
+) else (
+    echo Escolha inválida. Por favor, selecione um número válido
+)
