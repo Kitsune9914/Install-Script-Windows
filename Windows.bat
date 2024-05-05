@@ -469,3 +469,36 @@ if "%choice%"=="1" (
     pause
     exit
 )
+
+echo Apartir daqui são componentes não essenciais deseja parar por aqui?
+echo 1. Sim
+echo 2. Não
+
+set /p choice="Digite o número de sua escolha: "
+
+if "%choice%"=="1" (
+    echo Continuando
+    pause
+) else if "%choice%"=="2" (
+    echo Finalizando por aqui...
+    pause
+    exit
+)
+
+echo Deseja instalar o LibreOffice?
+echo 1. Sim
+echo 2. Não
+
+set /p "Escolha uma opção válida: "
+
+if "%choice%"=="1" (
+    echo Instalando o LibreOffice...
+    winget install TheDocumentFoundation.LibreOffice
+    echo Instalação do LibreOffice ocorreu com sucesso
+    pause
+) else if "%choice%"=="2" (
+    echo Ignorando
+    pause
+) else (
+    echo Opção inválida. Por favor, digite um número válido
+)
