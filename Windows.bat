@@ -499,6 +499,14 @@ if "%choice%"=="1" (
 ) else if "%choice%"=="2" (
     echo Ignorando
     pause
+) else if "%choice%"=="3" (
+    echo Fechando o Script
+    pause
+    exit
 ) else (
-    echo Opção inválida. Por favor, digite um número válido
+    echo Escolha inválida. Por favor, selecione um número válida
 )
+
+echo Deseja instalar o Shotcut?
+echo 1. Sim
+echo 2.
