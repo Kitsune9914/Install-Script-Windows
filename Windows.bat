@@ -6,8 +6,12 @@ cls
 echo Escolha um aplicativo para instalar:
 echo 1. Firefox
 echo 2. Librewolf
-echo 3. Ignorar
-echo 4. Fechar
+echo 3. Opera
+echo 4. Brave
+echo 5. Vivaldi
+echo 6. Ungoogled Chromium
+echo 7. Ignorar
+echo 8. Fechar
 
 set /p choice="Digite o número da sua escolha: "
 
@@ -21,40 +25,35 @@ if "%choice%"=="1" (
     winget install LibreWolf.LibreWolf
     pause
 ) else if "%choice%"=="3" (
-    echo Ignorando
+    echo Instalando o Opera
+    winget install Opera.Opera
+    echo Instalação do Opera foi concluida com sucesso
     pause
 ) else if "%choice%"=="4" (
-    echo Fechando o Script...
+    echo Instalando o Brave...
+    winget install Brave.Brave
+    echo Instalação do Brave foi concluida com sucesso
     pause
-    exit
-) else (
-    echo Escolha inválida. Por favor, digite um número válido.
+) else if "%choice%"=="5" (
+    echo Instalando o Vivaldi...
+    winget install VivaldiTechnologies.Vivaldi
+    echo Instalação do Vivaldi foi concluida com sucesso
     pause
-    exit
-)
-
-echo Escolha um aplicativo para instalar:
-echo 1. Ungoogled Chromium
-echo 2. Ignorar
-echo 3. Fechar
-
-set /p choice="Digite o número da sua escolha: "
-
-if "%choice%"=="1" (
-    echo Instalando o Ungoogled Chromium...
+) else if "%choice%"=="6" (
+    echo Instalando o Ungoogled Chromium
     winget install eloston.ungoogled-chromium
+    echo Instalação do Ungoogled Chromium foi concluida com sucesso
     pause
-) else if "%choice%"=="2" (
+) else if "%choice%"=="7" (
     echo Ignorando
     pause
-) else if "%choice%"=="3" (
+) else if "%choice%"=="8" (
     echo Fechando o Script...
     pause
     exit
 ) else (
-    echo Escolha inválida. Por favor, digite um número válido
-    pause
-    exit
+  echo Opção inválida. Por favor, digite um número válido
+  exit
 )
 
 echo Escolha um aplicativo para instalar:
@@ -70,7 +69,7 @@ if "%choice%"=="1" (
 ) else if "%choice%"=="2" (
     echo Ignorando
     pause
-) else if "%choice%"==="3" (
+) else if "%choice%"=="3" (
     echo Fechando o Script...
     pause
     exit
