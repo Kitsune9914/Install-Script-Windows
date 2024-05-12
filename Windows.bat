@@ -530,3 +530,26 @@ if "%choice%"=="1" (
 ) else (
     echo Escolha inválida. Por favor, selecione um número válido
 )
+
+echo Deseja instalar o WezTerm?
+echo 1. Sim
+echo 2. Não
+echo 3. Sair
+
+setp /p "Escolha uma opção válida: "
+
+if "%choice"=="1" (
+    echo Instalando o WezTerm
+    winget install wez.WezTerm
+    echo Instalação do WezTerm ocorreu com sucesso
+    pause
+) else if "%choice"=="2" (
+    echo Ignorando
+    pause
+) else if "%choice"=="3" (
+    echo Fechando o Script...
+    pause
+    exit
+) else (
+    echo Escolha inválida. Por favor, selecione um número válido
+)
