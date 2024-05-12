@@ -56,9 +56,9 @@ if "%choice%"=="1" (
   exit
 )
 
-echo Escolha um aplicativo para instalar:
-echo 1. Thunderbird
-echo 2. Ignorar
+echo Deseja instalar o Thunderbird
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite o número da sua escolha: "
