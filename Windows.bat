@@ -140,9 +140,9 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Escolha uma aplicativo para instalar:
-echo 1. PPSSPP
-echo 2. Ignorar
+echo Deseja instalar o PPSSPP?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite o número da sua escolha: "
@@ -165,9 +165,9 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Escolha um aplicativo para instalar:
-echo 1. DuckStation
-echo 2. Ignorar
+echo Deseja instalar o DuckStation?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite um número de sua escolha: "
