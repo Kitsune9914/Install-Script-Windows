@@ -190,9 +190,9 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Escolha um aplicativo para instalar:
-echo 1. Retroarch
-echo 2. Ignorar
+echo Deseja instalar o Retroarch?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite um número de sua escolha: "
@@ -215,9 +215,9 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Escolha um aplicativo para instalar:
-echo 1. DoomRunner
-echo 2. Ignorar
+echo Deseja instalar o DoomRunner?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite um número de sua escolha: "
@@ -240,9 +240,9 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Escolha um aplicativo para instalar:
-echo 1. Zandronum
-echo 2. Ignorar
+echo Deseja instalar o Zandronum?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite um número de sua escolha: "
@@ -265,9 +265,9 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Escolha um aplicativo para instalar:
-echo 1. ScummVM
-echo 2. Ignorar
+echo Deseja instalar o ScummVM?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite um número de sua escolha: "
@@ -290,9 +290,9 @@ if "%choice%"=="1" (
     exit
 ) 
 
-echo Escolha um aplicativo para instalar:
-echo 1. Prism Launcher
-echo 2. Ignorar
+echo Deseja instalar o Prism Launcher?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite um número de sua escolha: "
@@ -315,9 +315,9 @@ if "%choice%"=="1" (
     exit
 ) 
 
-echo Escolha um aplicativo para instalar:
-echo 1. Heroic Games Launcher
-echo 2. Ignorar
+echo Deseja instalar o Heroic Games Launcher
+echo 1. Sim
+echo 2. Não
 echo 3. Fechar
 
 set /p choice="Digite o número da sua escolha: "
@@ -340,9 +340,9 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Escolha um aplicativo para instalar
-echo 1. Steam
-echo 2. Ignorar
+echo Deseja instalar a Steam?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite o número de sua escolha: "
@@ -365,9 +365,9 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Escolha um aplicativo para instalar:
-echo 1. Itch.io
-echo 2. Ignorar
+echo Deseja instalar a Itch.io?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite o número de sua escolha: "
@@ -418,11 +418,11 @@ if "%choice%"=="1" (
     echo Escolha inválida. Por favor, digite um número válido
     pause
     exit
-)    
+)
 
-echo Escolha um aplicativo para instalar
-echo 1. Qbittorrent
-echo 2. Ignorar
+echo Deseja instalar o Qbittorrent?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite o número de sua escolha: "
@@ -445,9 +445,9 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Escolha um aplicativo para instalar
-echo 1. Neovim
-echo 2. Ignorar
+echo Deseja instalar o Neovim?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite o número de sua escolha: "
