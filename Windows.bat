@@ -74,8 +74,8 @@ if "%choice%"=="1" (
     pause
     exit
 ) else (
-    echo Escolha inválida. Por favor, digite um número válido.
-    pause 
+    echo Opção inválida, Por favor, digite um número válido
+    pause
     exit
 )
 
@@ -115,9 +115,9 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Escolha um aplicativo para instalar:
-echo 1. Vscodium
-echo 2. Ignorar
+echo Deseja instalar o VSCodium?
+echo 1. Sim
+echo 2. Não
 echo 3. Sair
 
 set /p choice="Digite o número de sua escolha: "
