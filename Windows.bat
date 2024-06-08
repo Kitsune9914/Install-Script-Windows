@@ -1,5 +1,5 @@
 @echo off
-title Script
+title Pos Install
 
 :start
 cls
@@ -79,6 +79,29 @@ if "%choice%"=="1" (
     exit
 )
 
+echo Deseja instalar o WezTerm?
+echo 1. Sim
+echo 2. Não
+echo 3. Sair
+
+set /p "Escolha uma opção válida: "
+
+if "%choice"=="1" (
+    echo Instalando o WezTerm
+    winget install wez.WezTerm
+    echo Instalação do WezTerm ocorreu com sucesso
+    pause
+) else if "%choice"=="2" (
+    echo Ignorando
+    pause
+) else if "%choice"=="3" (
+    echo Fechando o Script...
+    pause
+    exit
+) else (
+    echo Escolha inválida. Por favor, selecione um número válido
+)
+
 echo Escolha um aplicativo para instalar:
 echo 1. Discord
 echo 2. Discord Canary
@@ -111,31 +134,6 @@ if "%choice%"=="1" (
     exit
 ) else (
     echo Escolha inválida. Por favor, digite um número válido.
-    pause
-    exit
-)
-
-echo Deseja instalar o VSCodium?
-echo 1. Sim
-echo 2. Não
-echo 3. Sair
-
-set /p choice="Digite o número de sua escolha: "
-
-if "%choice%"=="1" (
-    echo Instalando o Vscodium...
-    winget install VSCodium
-    echo Instalação do Vscodium foi concluida com sucesso
-    pause
-) else if "%choice%"=="2" (
-    echo Ignorando
-    pause
-) else if "%choice%"=="3" (
-    echo Fechando o Script...
-    pause
-    exit
-) else (
-    echo Escolha inválida. Por favor, digite um número válido
     pause
     exit
 )
@@ -445,31 +443,6 @@ if "%choice%"=="1" (
     exit
 )
 
-echo Deseja instalar o Neovim?
-echo 1. Sim
-echo 2. Não
-echo 3. Sair
-
-set /p choice="Digite o número de sua escolha: "
-
-if "%choice%"=="1" (
-    echo Instalando o Neovim...
-    winget install Neovim
-    echo Instalação do Neovim foi concluida com sucesso
-    pause
-) else if "%choice%"=="2" (
-    echo Ignorando
-    pause
-) else if "%choice"=="3" (
-    echo Fechando o Script...
-    pause 
-    exit
-) else (
-    echo Escolha inválida. Por favor, digite um número válido
-    pause
-    exit
-)
-
 echo Apartir daqui são componentes não essenciais deseja parar por aqui?
 echo 1. Sim
 echo 2. Não
@@ -536,7 +509,7 @@ echo 1. Sim
 echo 2. Não
 echo 3. Sair
 
-setp /p "Escolha uma opção válida: "
+set /p "Escolha uma opção válida: "
 
 if "%choice"=="1" (
     echo Instalando o WezTerm
